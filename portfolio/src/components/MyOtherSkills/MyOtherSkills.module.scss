@@ -1,0 +1,40 @@
+$portrait-phones: 575.98px;
+$landscape-phones: 767.98px;
+$tablets: 1059.99px;
+$desktops: 1199.98px;
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-family: var(--roboto);
+    margin: 2rem 0;
+    letter-spacing: 5px;
+    text-shadow: 0 6px 4px #000000;
+    text-align: center;
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    gap: 0.5rem;
+
+    @media (max-width: $tablets) {
+      grid-template-columns: auto auto;
+      width: 100%;
+    }
+
+    @media (max-width: $landscape-phones) {
+      grid-template-columns: auto;
+      gap: 1rem;
+      width: 100%;
+    }
+  }
+}

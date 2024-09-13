@@ -1,0 +1,112 @@
+:root {
+  --poppins: Poppins, sans-serif;
+  --pacificoRegular: Pacifico-Regular, sans-serif;
+  --satisfy: Satisfy, sans-serif;
+  --carterOne: CarterOne, sans-serif;
+  --concertOne: ConcertOne, sans-serif;
+  --kaushanScript: KaushanScript, sans-serif;
+  --roboto: Roboto, sans-serif;
+  --lobster: Lobster, sans-serif;
+  --lumanosimo: Lumanosimo, sans-serif;
+  --lugrasimo: Lugrasimo, sans-serif;
+  --dancingScript: DancingScript, sans-serif;
+  --caveat: Caveat, sans-serif;
+  --indieFlower: IndieFlower, sans-serif;
+
+  --bg: rgb(21, 21, 21);
+}
+
+[data-theme="dark"] {
+}
+
+$portrait-phones: 575.98px;
+$landscape-phones: 767.98px;
+$tablets: 991.98px;
+$desktops: 1199.98px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--bg);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  align-items: center;
+  overflow: hidden;
+
+  @media (max-width: $portrait-phones) {
+    padding: 1rem;
+  }
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("./fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Pacifico-Regular;
+  src: url("./fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("./fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Lumanosimo;
+  src: url("./fonts/Lumanosimo-Regular.ttf");
+}
+
+@font-face {
+  font-family: Lugrasimo;
+  src: url("./fonts/Lugrasimo-Regular.ttf");
+}
+
+@font-face {
+  font-family: DancingScript;
+  src: url("./fonts/DancingScript-Regular.ttf");
+}
+
+@font-face {
+  font-family: Lobster;
+  src: url("./fonts/Lobster-Regular.ttf");
+}
+
+@font-face {
+  font-family: Caveat;
+  src: url("./fonts/Caveat-Regular.ttf");
+}
+
+@font-face {
+  font-family: IndieFlower;
+  src: url("./fonts/IndieFlower-Regular.ttf");
+}
+
+@font-face {
+  font-family: Satisfy;
+  src: url("./fonts/Satisfy-Regular.ttf");
+}
+
+@font-face {
+  font-family: CarterOne;
+  src: url("./fonts/CarterOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: ConcertOne;
+  src: url("./fonts/ConcertOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: KaushanScript;
+  src: url("./fonts/KaushanScript-Regular.ttf");
+}

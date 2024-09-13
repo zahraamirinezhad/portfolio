@@ -1,0 +1,33 @@
+$portrait-phones: 575.98px;
+$landscape-phones: 767.98px;
+$tablets: 991.98px;
+$desktops: 1199.98px;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-family: var(--roboto);
+    margin: 2rem 0;
+    letter-spacing: 5px;
+    text-shadow: 0 6px 4px #000000;
+    text-align: center;
+  }
+
+  .projects {
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    gap: 1.5rem;
+
+    @media (max-width: $landscape-phones) {
+      width: 100%;
+    }
+  }
+}

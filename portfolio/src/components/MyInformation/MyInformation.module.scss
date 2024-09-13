@@ -1,0 +1,125 @@
+$portrait-phones: 575.98px;
+$landscape-phones: 767.98px;
+$tablets: 991.98px;
+$desktops: 1199.98px;
+
+.conrainer {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+
+  @media (max-width: $tablets) {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .myImage {
+    transform: translateX(-150%);
+    opacity: 0;
+    filter: blur(10px);
+    transition: all ease-in-out 1s;
+
+    &.slideIn {
+      transform: translateX(0) !important;
+      opacity: 1 !important;
+      filter: blur(0) !important;
+    }
+
+    @media (max-width: $tablets) {
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    img {
+      width: 400px;
+      height: 500px;
+      border-radius: 0.5rem;
+      box-shadow: 22px 22px 17px 3px rgba(8, 8, 8, 0.61);
+      -webkit-box-shadow: 22px 22px 17px 3px rgba(8, 8, 8, 0.61);
+      -moz-box-shadow: 22px 22px 17px 3px rgba(8, 8, 8, 0.61);
+
+      @media (max-width: $tablets) {
+        width: 20rem;
+        height: 25rem;
+      }
+
+      @media (max-width: $portrait-phones) {
+        width: 80%;
+        height: 80%;
+      }
+    }
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    transform: translateX(150%);
+    opacity: 0;
+    transition: all ease-in-out 1s;
+    filter: blur(10px);
+
+    &.slideIn {
+      transform: translateX(0) !important;
+      opacity: 1 !important;
+      filter: blur(0) !important;
+    }
+
+    @media (max-width: $tablets) {
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1 {
+      color: #fab604;
+      font-family: var(--poppins);
+      text-shadow: 6px 6px 4px #000000;
+
+      @media (max-width: $tablets) {
+        text-align: center;
+      }
+    }
+
+    h2 {
+      color: #fcfcfc;
+      font-family: var(--roboto);
+      text-shadow: 6px 6px 4px #000000;
+      letter-spacing: 3px;
+
+      @media (max-width: $tablets) {
+        text-align: center;
+      }
+    }
+
+    p {
+      color: #ebe9e9;
+      font-family: var(--poppins);
+      text-align: justify;
+      font-size: 0.9rem;
+      line-height: 1.5rem;
+
+      @media (max-width: $tablets) {
+        text-align: center;
+      }
+    }
+
+    h3 {
+      color: #ffce54;
+      font-family: var(--roboto);
+      text-shadow: 6px 6px 4px #000000;
+      letter-spacing: 3px;
+
+      @media (max-width: $tablets) {
+        text-align: center;
+      }
+    }
+  }
+}

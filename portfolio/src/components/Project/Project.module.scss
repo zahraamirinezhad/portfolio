@@ -1,0 +1,217 @@
+$portrait-phones: 575.98px;
+$landscape-phones: 767.98px;
+$tablets: 991.98px;
+$desktops: 1199.98px;
+
+.container {
+  width: 45rem;
+  height: fit-content;
+  z-index: 10;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #1c1c1c;
+  padding: 0.3rem;
+
+  @media (max-width: $landscape-phones) {
+    width: 100%;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 30rem;
+    height: 30rem;
+    background: linear-gradient(
+      0deg,
+      transparent,
+      transparent,
+      #45f3ff,
+      #45f3ff,
+      #45f3ff
+    );
+    z-index: 0;
+    animation: animate 8s linear infinite;
+    transform-origin: bottom right;
+    animation-delay: -2s;
+
+    @media (max-width: $landscape-phones) {
+      display: none;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 30rem;
+    height: 30rem;
+    background: linear-gradient(
+      0deg,
+      transparent,
+      transparent,
+      #45f3ff,
+      #45f3ff,
+      #45f3ff
+    );
+    z-index: 0;
+    animation: animate 8s linear infinite;
+    transform-origin: bottom right;
+    animation-delay: -6s;
+
+    @media (max-width: $landscape-phones) {
+      display: none;
+    }
+  }
+
+  .borderLine {
+    position: absolute;
+    top: 0;
+    inset: 0;
+
+    @media (max-width: $landscape-phones) {
+      display: none;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 30rem;
+      height: 30rem;
+      background: linear-gradient(
+        0deg,
+        transparent,
+        transparent,
+        #ff2770,
+        #ff2770,
+        #ff2770
+      );
+      z-index: 0;
+      animation: animate 8s linear infinite;
+      transform-origin: bottom right;
+      animation-delay: -4s;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 30rem;
+      height: 30rem;
+      background: linear-gradient(
+        0deg,
+        transparent,
+        transparent,
+        #ff2770,
+        #ff2770,
+        #ff2770
+      );
+      z-index: 0;
+      animation: animate 8s linear infinite;
+      transform-origin: bottom right;
+      animation-delay: -8s;
+    }
+  }
+
+  .project {
+    font-family: var(--roboto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #222;
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    z-index: 10;
+
+    img {
+      display: block;
+      width: 30rem;
+      height: 20rem;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+      @media (max-width: $landscape-phones) {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    p {
+      color: #fff;
+      font-size: 0.9rem;
+
+      @media (max-width: $landscape-phones) {
+        text-align: center;
+      }
+    }
+
+    h4 {
+      color: #8c8c8c;
+      font-size: 0.9rem;
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      column-gap: 2rem;
+      row-gap: 0.5rem;
+      margin-left: 2rem;
+      color: #cccccc;
+      font-size: 0.8rem;
+
+      @media (max-width: $landscape-phones) {
+        grid-template-columns: auto auto;
+        justify-items: center;
+        width: 100%;
+        margin: 0;
+      }
+
+      @media (max-width: $portrait-phones) {
+        grid-template-columns: auto;
+        justify-items: center;
+        width: 100%;
+        margin: 0;
+      }
+
+      li {
+        @media (max-width: $landscape-phones) {
+          list-style-type: none;
+        }
+      }
+    }
+
+    a {
+      cursor: pointer;
+      text-decoration: none;
+      color: #d30101;
+      font-family: var(--carterOne);
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        color: #ff0000;
+      }
+    }
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
