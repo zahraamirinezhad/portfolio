@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ba75b1ab.css",
+    "main.js": "/portfolio/static/js/main.e07fd62a.js",
+    "static/media/my_image.jpg": "/portfolio/static/media/my_image.1db87cff8de7a2cefe1a.jpg",
+    "static/media/Lobster-Regular.ttf": "/portfolio/static/media/Lobster-Regular.03c38496322925fec242.ttf",
+    "static/media/Pacifico-Regular.ttf": "/portfolio/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
+    "static/media/Caveat-Regular.ttf": "/portfolio/static/media/Caveat-Regular.1f129497cd349562c266.ttf",
+    "static/media/KaushanScript-Regular.ttf": "/portfolio/static/media/KaushanScript-Regular.a668b3d996f7c50fb3fe.ttf",
+    "static/media/Roboto-Regular.ttf": "/portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Poppins-Regular.ttf": "/portfolio/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/photo_2.jpg": "/portfolio/static/media/photo_2.97a26972f19bef17a327.jpg",
+    "static/media/photo_5.jpg": "/portfolio/static/media/photo_5.9054ccc9d7c7e31abcfd.jpg",
+    "static/media/photo_7.jpg": "/portfolio/static/media/photo_7.4afaa0c6ccbe2bfdc751.jpg",
+    "static/media/DancingScript-Regular.ttf": "/portfolio/static/media/DancingScript-Regular.5bfc0dcc0c0ff5a2832e.ttf",
+    "static/media/ConcertOne-Regular.ttf": "/portfolio/static/media/ConcertOne-Regular.646d19d3a58116d78c9c.ttf",
+    "static/media/CarterOne-Regular.ttf": "/portfolio/static/media/CarterOne-Regular.077c4bbc891d504d9751.ttf",
+    "static/media/photo_1.jpg": "/portfolio/static/media/photo_1.2ff9a31e9d2ec97c22d9.jpg",
+    "static/media/IndieFlower-Regular.ttf": "/portfolio/static/media/IndieFlower-Regular.599d26584b9afc1d20b1.ttf",
+    "static/media/Satisfy-Regular.ttf": "/portfolio/static/media/Satisfy-Regular.32a6713537cf5e1e82f2.ttf",
+    "static/media/Lumanosimo-Regular.ttf": "/portfolio/static/media/Lumanosimo-Regular.24bd4f0ee9ce0247040e.ttf",
+    "static/media/Lugrasimo-Regular.ttf": "/portfolio/static/media/Lugrasimo-Regular.d80bf32e05bbfd3f566f.ttf",
+    "static/media/photo_3.jpg": "/portfolio/static/media/photo_3.f080200e3a10c4a464f1.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.ba75b1ab.css.map": "/portfolio/static/css/main.ba75b1ab.css.map",
+    "main.e07fd62a.js.map": "/portfolio/static/js/main.e07fd62a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba75b1ab.css",
+    "static/js/main.e07fd62a.js"
+  ]
+}
