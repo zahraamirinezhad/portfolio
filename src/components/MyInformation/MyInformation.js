@@ -1,5 +1,4 @@
 import React from "react";
-import MyIMG from "../../images/my_image.jpg";
 import classes from "./MyInformation.module.scss";
 import { useState, useRef, useEffect } from "react";
 
@@ -24,9 +23,6 @@ const MyInformation = () => {
 
   return (
     <div className={classes.conrainer} ref={ref}>
-      <div className={`${classes.myImage} ${slideIn && classes.slideIn}`}>
-        <img src={MyIMG}></img>
-      </div>
       <div className={`${classes.info} ${slideIn && classes.slideIn}`}>
         <h1>I'm Zahra Amirinezhad</h1>
         <h2>Web Developer</h2>
