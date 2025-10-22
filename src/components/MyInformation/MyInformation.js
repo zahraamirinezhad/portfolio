@@ -31,8 +31,8 @@ const MyInformation = () => {
         <h1>I'm Zahra Amirinezhad</h1>
         <h2>Web Developer</h2>
         <p>
-          Hello, I’m Zahra, a passionate web developer specializing in React
-          Framework for FrontEnd and NodeJs for BackEnd with 2 years of
+          Hello, I’m Zahra, a passionate web developer specializing in React and
+          Angular Framework for FrontEnd and NodeJs for BackEnd with 2 years of
           experience in the field.
         </p>
         <h3>Happy to build your website :)</h3>

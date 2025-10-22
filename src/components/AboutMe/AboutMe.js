@@ -35,7 +35,7 @@ const AboutMe = () => {
         </div>
         <div className={classes.info}>
           <p>
-            Age : <span>22</span>
+            Age : <span>23</span>
           </p>
         </div>
         <div
@@ -51,11 +51,11 @@ const AboutMe = () => {
         <div
           className={`${classes.info} ${classes.btn}`}
           onClick={() => {
-            copyToClipboard("@ZahraAmirinezhad");
+            copyToClipboard("@zahra_amirinezhad");
           }}
         >
           <p>
-            Telegram ID : <span>@ZahraAmirinezhad</span>
+            Telegram ID : <span>@zahra_amirinezhad</span>
           </p>
         </div>
         <div

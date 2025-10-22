@@ -29,13 +29,13 @@ const MyOtherSkills = () => {
         <OtherSkill
           display={display}
           color="#04fc43"
-          num={`90%`}
+          num={`70%`}
           lesson="HTML"
         />
         <OtherSkill
           display={display}
           color="#1a1aff"
-          num={`80%`}
+          num={`70%`}
           lesson="CSS"
         />
         <OtherSkill
@@ -47,49 +47,49 @@ const MyOtherSkills = () => {
         <OtherSkill
           display={display}
           color="#ff4d4d"
-          num={`85%`}
+          num={`50%`}
           lesson="Material UI"
         />
         <OtherSkill
           display={display}
           color="#e600e6"
-          num={`85%`}
+          num={`50%`}
           lesson="Bootstrap"
         />
         <OtherSkill
           display={display}
           color="#29a3a3"
-          num={`80%`}
+          num={`50%`}
           lesson="Tailwind"
         />
         <OtherSkill
           display={display}
           color="#ff4d4d"
-          num={`75%`}
+          num={`50%`}
           lesson="Materialize"
         />
         <OtherSkill
           display={display}
           color="#00e600"
-          num={`65%`}
+          num={`30%`}
           lesson="Mongo db"
         />
         <OtherSkill
           display={display}
           color="#1aa3ff"
-          num={`90%`}
+          num={`40%`}
           lesson="Postgresql"
         />
         <OtherSkill
           display={display}
           color="#ff3300"
-          num={`65%`}
+          num={`40%`}
           lesson="Git"
         />
         <OtherSkill
           display={display}
           color="#ffcc00"
-          num={`60%`}
+          num={`40%`}
           lesson="Java"
         />
         <OtherSkill

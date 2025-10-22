@@ -29,19 +29,13 @@ const MySkills = () => {
         <Skill
           display={display}
           color="#47d1d1"
-          num={85}
+          num={60}
           lesson="React js"
         ></Skill>
         <Skill
           display={display}
-          color="#99e6e6"
-          num={40}
-          lesson="Next js"
-        ></Skill>
-        <Skill
-          display={display}
           color="#99cc00"
-          num={60}
+          num={40}
           lesson="Node js"
         ></Skill>
         <Skill
@@ -49,6 +43,12 @@ const MySkills = () => {
           color="#006bb3"
           num={30}
           lesson="Figma"
+        ></Skill>
+        <Skill
+          display={display}
+          color="#7eaecf"
+          num={20}
+          lesson="Angular"
         ></Skill>
       </div>
     </div>
